@@ -1,0 +1,10 @@
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+text = "hsjdj sjhfhfsfh d f fhshdgh djgfldegjp[f souwtodkotgju9yu;s;souerriuhtdlk shjsjjf "
+
+cloud = WordCloud().generate(text)
+
+plt.imshow(cloud)
+plt.axis('off')
+plt.show()
